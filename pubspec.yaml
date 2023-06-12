@@ -1,0 +1,61 @@
+name: food_order_app
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+ 
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  freezed_annotation: ^2.2.0
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.0
+  freezed: ^2.3.5
+  auto_route: ^7.4.0
+  bloc: ^8.1.2
+  dio: ^5.2.0+1
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.6
+
+
+
+dev_dependencies:
+ 
+  flutter_test:
+    sdk: flutter
+  
+
+  auto_route_generator: ^7.1.1
+  build_runner: ^2.4.5
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+        - asset: assets/fonts/SF-Pro-Display-BlackItalic.otf
+        - asset: assets/fonts/SF-Pro-Display-BoldItalic.otf
+        - asset: assets/fonts/SF-Pro-Display-Heavy.otf
+        - asset: assets/fonts/SF-Pro-Display-HeavyItalic.otf
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+        - asset: assets/fonts/SF-Pro-Display-LightItalic.otf
+        - asset: assets/fonts/SF-Pro-Display-MediumItalic.otf
+        - asset: assets/fonts/SF-Pro-Display-SemiBold.otf
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+        - asset: assets/fonts/SF-Pro-Display-ThinItalic.otf
+
